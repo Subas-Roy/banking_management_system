@@ -70,11 +70,11 @@ admin = Admin()
 user1 = admin.create_user("User1")
 user2 = admin.create_user("User2")
 
-user1.deposit(1000)
-user2.deposit(1500)
+user1.deposit(3000)
+user2.deposit(3500)
 
-user1.transfer(user2, 300)
-user2.withdraw(200)
+user1.transfer(user2, 1000)
+user2.withdraw(700)
 
 user1.take_loan()
 user1.take_loan()
